@@ -27,7 +27,7 @@ function createClientScript(rootModuleID, props) {
       'require(\'es5-shim/es5-shim.js\');' +
       'require(\'es5-shim/es5-sham.js\');' +
       'var React = require(\'React\');' +
-      'var Backbone = require(\'backbone\');' +
+      'var Backbone = require(\'backbone/backbone.js\');' +
       'var ReactMount = require(\'ReactMount\');' +
       'var Component = require(\'' + rootModuleID + '\');' +
       'ReactMount.allowFullPageRender = true;' +
